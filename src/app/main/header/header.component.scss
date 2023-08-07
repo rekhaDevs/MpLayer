@@ -1,0 +1,47 @@
+.main-header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .header-content {
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .user-profile {
+    height: 60px;
+    width: 60px;
+
+    img{
+      height: 80%;
+      width: 80%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .logout-button{
+      background-color: transparent;
+      color: white;
+      border: 0;
+      font-size: 16px;
+    }
+  }
+  .profile-image {
+    position: relative;
+    cursor: pointer;
+  }  
+
+  

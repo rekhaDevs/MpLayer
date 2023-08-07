@@ -1,0 +1,38 @@
+@import "/src/styles/variables";
+
+html,
+body {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body.dark {
+  @include darken();
+}
+body.light {
+  @include lighten();
+}
+
+button {
+  font-family: "Space Mono", monospace;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+}
+
+
+.has-error {
+  color: #a94442 !important;
+  font-size: 12px !important;
+  font-style: italic !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
